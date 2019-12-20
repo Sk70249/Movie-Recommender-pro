@@ -1,4 +1,4 @@
-# Python3 code for movie
+# Python3 code for Movie Recommender pro
 # Recommendation based on emotion.
 # Import library for web scrapping.
 from bs4 import BeautifulSoup as SOUP
@@ -8,10 +8,10 @@ import requests as HTTP
 
 # Main Function for scraping
 def main(emotion):
-    # IMDb Url for Drama genre of
+    # IMDb Url for Comedy Drama genre of
     # movie against emotion Sad
     if (emotion == "Sad"):
-        urlhere = 'http://www.imdb.com/search/title?genres=drama&title_type=feature&sort=moviemeter, asc'
+        urlhere = 'https://www.imdb.com/list/ls052109630/'
 
     # IMDb Url for Action and SciFi genre of
     # movie against emotion Excitement.
@@ -71,11 +71,12 @@ def main(emotion):
 # Driver Function
 if __name__ == '__main__':
 
-    emotion = input("Enter the emotion: ")
+    emotion = input("Enter the emotion: ").title()
     a = main(emotion)
+
     count = 0
 
-    if (emotion == "Disgust" or emotion == "Surprise"):
+    if (emotion == "Surprise"):
 
         for i in a:
             # Splitting each line of the
