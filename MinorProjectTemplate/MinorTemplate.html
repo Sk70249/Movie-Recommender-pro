@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="s132">
+      <form>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <div class="input-select">
+              <select data-trigger="" name="choices-single-defaul">
+                <option placeholder="">Emotions</option>
+                <option>Sad</option>
+                <option>Enjoyment</option>
+                <option>Anger</option>
+                <option>Surprise</option>
+                <option>Fear</option>
+                <option>Anticipation</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-field second-wrap">
+            <input id="search" type="text" placeholder="Whats Your Mood?" />
+          </div>
+          <div class="input-field third-wrap">
+            <button class="btn-search" type="button">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="js/extention/choices.js"></script>
+    <script>
+      const choices = new Choices('[data-trigger]',
+      {
+        searchEnabled: false,
+        itemSelectText: '',
+      });
+
+    </script>
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
