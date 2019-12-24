@@ -1,6 +1,5 @@
 # Movie-Recommender-pro
-It's a python project that suggest movies based on your present emotion/mood.
-MOVIES RECOMMENDER PRO
+It's a python project that suggest movies based on your present emotion/mood on real time without using any Databases.
 
 ## Problem Domain:
  	Problems: -  
