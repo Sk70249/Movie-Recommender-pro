@@ -26,11 +26,6 @@ It's a python project that suggest movies based on your present emotion/mood on 
 1.	Outcome: -
 “List of latest featured movies based on the user’s input i.e. mood of user/emotion.”
 
- ## References: -
-1.	https://www.geeksforgeeks.org/computer-science-projects/
-2.	https://www.google.com/
-3.	https://www.scrapehero.com/how-to-install-python3-in-windows-10/
-
 ## SnapShots of Code Output
 ![Screenshot (62)](https://user-images.githubusercontent.com/48255425/71235834-5085e080-2323-11ea-9041-0bf0a048ac88.png)
 ![Screenshot (64)](https://user-images.githubusercontent.com/48255425/71235836-511e7700-2323-11ea-9f95-8c469e84d2d2.png)
