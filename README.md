@@ -1,4 +1,4 @@
-# Movie-Recommender-pro
+# Movie-Recommender-pro &nbsp;&nbsp;[![license](https://img.shields.io/github/license/ajaymache/travis-ci-with-github.svg)](https://opensource.org/licenses/MIT)
 It's a python project that suggest movies based on your present emotion/mood on real time without using any Databases.
 
 ## Problem Domain:
